@@ -1,5 +1,5 @@
 #!/bin/bash
-#URL: https://github.com/yushangcl/JetbrainsServer
+#URL: https://github.com/Suk-ldev/JetbrainsServer
 #E-mail: gayhub@live.cn
 clear
 echo "    ################################################"
@@ -28,7 +28,7 @@ else
   arch=32
 fi
 #Build Jetbrains Server
-git clone https://github.com/yushangcl/JetbrainsServer
+git clone https://github.com/Suk-ldev/JetbrainsServer
 if cat /etc/*-release | grep -Eqi "raspbian"; then
   mv JetbrainsServer/binaries/IntelliJIDEALicenseServer_linux_arm jetbrains
 else
